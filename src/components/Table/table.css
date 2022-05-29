@@ -1,0 +1,35 @@
+.login-imag {
+  height: 30vh;
+  width: auto;
+}
+
+.login-icons {
+  margin-right: 0.5vh;
+  margin-top: 0.5vh;
+}
+
+@keyframes dissapear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.make-appear {
+  animation: appear 3s normal;
+}
+
+.margin-p {
+  margin-bottom: 20px;
+}
